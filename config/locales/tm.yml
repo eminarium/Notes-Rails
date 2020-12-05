@@ -1,17 +1,17 @@
 tm:
   navbar:
-    register: "Hasaba"
-    login: "Ulgama"
+    register: "Hasap Aç"
+    login: "Ulgama Gir"
     profile: "Profil"
     logout: "Ulgamdan çyk"
   main:
-    todo_lists: "Ýumuşlar Sanawy"
-    todo_list_desc: "Ýumuşlar sanawyny gözden geçiriň ýa-da täze sanaw başladyň"
-    start_new_list: "Täze Sanaw"
+    notes: "Bellikler"
+    notes_desc: "Bellikler sanawyny gözden geçiriň ýa-da täze bellik ýazyň"
+    create_new_note: "Täze Bellik"
     confirm: "Tassyklaýarsyňyzmy?"
-  lists:
-    new_list: "Täze Sanaw"
-    edit_list: "Sanawy Üýtget"
+  notes:
+    new_note: "Täze Ýumuş"
+    edit_note: "Ýumuşy Üýtget"
     title: "Ady..."
     description: "Giňişleýin..."
   forms:

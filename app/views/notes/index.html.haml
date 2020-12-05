@@ -1,6 +1,27 @@
-- @notes.each do |note|
-    %h2= link_to note.title, note
-    %p= time_ago_in_words(note.created_at)
-    %p= note.content
+.jumbotron
+    .container
+        %h1.display-4= t('main.notes')
+        %p.lead= t('main.notes_desc')
+        %hr.my-4
+        = link_to t('main.create_new_note'), new_note_path, class: "btn btn-primary btn-xs", style: "color:white"
 
-= link_to "New note", new_note_path    
+.row
+    - @notes.each do |note|
+        .col-sm-4
+            .card
+                .card-body
+                    %h5.card-title= link_to note.title, note
+                    %p.card-text= note.content
+                    %p= time_ago_in_words(note.created_at)
+
+                    = link_to note, class: "btn btn-primary", style: "color:white" do
+                        %i.fa.fa-info
+                    &nbsp;
+                    = link_to edit_note_path(note), class: "btn btn-warning", style: "color:white" do
+                        %i.fa.fa-edit
+                    &nbsp;
+                    = link_to note, method: :delete, data: {confirm: t('main.confirm')}, class: "btn btn-danger", style: "color:white" do
+                        %i.fa.fa-trash
+
+%br
+= link_to t('main.create_new_note'), new_note_path, class: "btn btn-info", style: "color:white"

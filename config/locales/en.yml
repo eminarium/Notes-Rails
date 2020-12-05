@@ -36,13 +36,13 @@ en:
     profile: "Profile"
     logout: "Logout"
   main:
-    todo_lists: "Todo Lists"
-    todo_list_desc: "Look through lists or Start a new List"
-    start_new_list: "Start New List"
+    notes: "Notes"
+    notes_desc: "Look through notes or Create a new Note"
+    create_new_note: "Create New Note"
     confirm: "Are you sure?"
-  lists:
-    new_list: "New List"
-    edit_list: "Edit List"
+  notes:
+    new_note: "New Note"
+    edit_note: "Edit Note"
     title: "Title..."
     description: "Description..."
   forms:

@@ -5,13 +5,13 @@ ru:
     profile: "Профиль"
     logout: "Выйти"
   main:
-    todo_lists: "Списки Задач"
-    todo_list_desc: "Просмотрите списки задач или создайте новый список"
-    start_new_list: "Новый Список"
+    notes: "Заметки"
+    notes_desc: "Просмотрите Заметки или создайте новую заметку"
+    create_new_note: "Новая Заметка"
     confirm: "Подтверждаете? Вы уверены?"
-  lists:
-    new_list: "Новый Список"
-    edit_list: "Редактировать Список"
+  notes:
+    new_note: "Новая Задача"
+    edit_note: "Редактировать Задачу"
     title: "Название..."
     description: "Описание..."
   forms:

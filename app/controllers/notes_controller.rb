@@ -43,7 +43,7 @@ class NotesController < ApplicationController
   private
 
   def set_note
-    @note = Note.find(params[:id])
+    @note = Note.friendly.find(params[:id])
   end
 
   def note_params

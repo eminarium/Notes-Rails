@@ -1,7 +1,11 @@
 %h1= @note.title
 %p= @note.content
 
-= link_to "All Notes", notes_path
-
-= link_to "Edit", edit_note_path(@note)
-= link_to "Delete", note_path(@note), method: :delete, data: { confirm: "Are you sure?" }
+= link_to notes_path, class: "btn btn-info", style: "color:white" do
+    %i.fa.fa-undo
+&nbsp;
+= link_to edit_note_path(@note), class: "btn btn-warning", style: "color:white" do
+    %i.fa.fa-edit
+&nbsp;
+= link_to note_path(@note), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-danger", style: "color:white" do
+    %i.fa.fa-trash
