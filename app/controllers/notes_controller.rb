@@ -3,18 +3,18 @@ class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
 
   def index
-    @notes = Note.all.order(created_at: :desc)
+    @notes = current_user.notes.order(created_at: :desc)
   end
 
   def show
   end
 
   def new
-    @note = Note.new
+    @note = current_user.notes.build
   end
 
   def create
-    @note = Note.new(note_params)
+    @note = current_user.notes.build(note_params)
 
     if @note.save
       redirect_to @note
