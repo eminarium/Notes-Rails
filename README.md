@@ -17,12 +17,13 @@ Bootstrap + HAML for decoration.
 List of extra tools used are shown below.  
   
     
+Database: Postgres  
 
 Gems used:  
 - Devise (for authentication)  
 - friendly_id (for slug)  
-- rails-i18n (for translation)  
-- haml (for friendly markup)
-- simple_form (for simple form markup)
+- rails-i18n (for translation/ :en, :ru, :tm locales used)  
+- haml (for friendly markup)  
+- simple_form (for simple form markup)  
 
 
