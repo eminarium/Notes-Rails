@@ -1,0 +1,35 @@
+ru:
+  navbar:
+    register: "Регистрация"
+    login: "Вход"
+    profile: "Профиль"
+    logout: "Выйти"
+  main:
+    todo_lists: "Списки Задач"
+    todo_list_desc: "Просмотрите списки задач или создайте новый список"
+    start_new_list: "Новый Список"
+    confirm: "Подтверждаете? Вы уверены?"
+  lists:
+    new_list: "Новый Список"
+    edit_list: "Редактировать Список"
+    title: "Название..."
+    description: "Описание..."
+  forms:
+    submit: "Принять"
+  session:
+    login: "Вход"    
+  registration:
+    register: "Зарегистрируйся"
+    profile_details: "Детали Профиля"
+    min_chars: "минимальное кол-во символов"
+    update: "Изменить"
+    cancel: "Удалить Учетную Запись"
+    unhappy: "Недовольны?"
+    cancel_my_account: "Удалить мою запись"
+    back: "Назад"
+    we_need_your_current_password: "для внесения изменений нужен Ваш текущий пароль"    
+    current_password: "Текущий пароль"
+    password_confirmation: "Подтверждение пароля"
+    leave_blank: "оставьте пустым если не хотите менять"
+    password: "Пароль"
+

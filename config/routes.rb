@@ -1,9 +1,17 @@
 Rails.application.routes.draw do
 
-  devise_for :users
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
+    devise_for :users
+    # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  resources :notes
-  
-  root "welcome#index"
+    resources :notes
+
+    authenticated :user do
+      root 'notes#index', as: "authenticated_root"
+    end
+
+    root "welcome#index"
+
+  end
+
 end
