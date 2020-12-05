@@ -9,6 +9,13 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+
+gem 'haml', '~> 5.2', '>= 5.2.1'
+gem 'devise', '~> 4.7', '>= 4.7.3'
+gem 'friendly_id', '~> 5.4.0'
+gem 'rails-i18n'
+gem 'simple_form', '~> 5.0', '>= 5.0.3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
