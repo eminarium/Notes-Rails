@@ -27,4 +27,26 @@ Gems used:
 - haml (for friendly markup)  
 - simple_form (for simple form markup)  
 
+  
 
+  
+Screenshot:
+
+All Notes  
+<img src="app/assets/images/notes_1.png" width="800" />  
+  
+  
+Editing a Note  
+<img src="app/assets/images/notes_2.png" width="800" />  
+  
+  
+  
+
+Instructions:
+- Install Rails (You can install Bitnami Rubystack)
+https://bitnami.com/stack/ruby/installer  
+- Run "bundle install" command in the project folder.  
+- Run rails server => "rails s"  
+- Open link "http://localhost:3000" on you computer (in the browser).  
+
+# Good Luck!
